@@ -1,6 +1,4 @@
-# ==========================
-# Student Marks Analysis
-# ==========================
+
 
 # Import libraries
 import pandas as pd
@@ -92,3 +90,4 @@ plt.show()
 # --------------------------
 df.to_csv("student_marks_analysis_output.csv", index=False)
 print("\nAnalysis complete! Results saved to 'student_marks_analysis_output.csv'")
+
